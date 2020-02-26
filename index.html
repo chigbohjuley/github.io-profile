@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>juley chigboh</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:aliceblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            overflow-x: hidden;
+        } 
+        header{
+           width: 100%;
+           padding: 20px;
+        }
+        header > h1{
+            margin:10px;
+            text-align: center;
+            font-size: 3rem;
+ }
+ header hr{
+     border-color: rgba(100, 100,100,0.3);
+ }
+  main{
+      displace: block;
+      padding: 2rem 1.5rem;
+  }
+
+   main > section{
+       margin-bottom: 40px;
+   } 
+   main > section#image-section{
+       width:100%;
+       border-radius: 4px;
+       overflow: hidden;
+ }   
+
+   main > section#image-section >img{
+  width: 100%;
+  height: auto;
+ }
+
+
+ main > section#infor{
+     width:100%;
+     padding:15px;
+     border:1px #333333 solid;
+     border-radius:6px;
+     background-color: whitesmoke;
+     box-shadow:blue 4px 4px 8px;
+ }
+ 
+   main > section#infor h2{
+       margin:10x;
+       margin-bottom: 15px;
+       text-align: center;
+   }
+   main > section#infor>p{
+       margin-bottom: 10px;
+   }
+main > section#infor >div{
+    width: 150px;
+    margin:20px auto;
+}
+main  section#infor> a{
+    width: 100%;
+}
+main > section#infor button{
+    width:100%;
+    height:50px;
+    border:0px;
+    border-radius: 5px;
+    background-color:coral;
+    font-weight:600;
+    font-size:12pt;
+    transition-duration: 500ms;
+}
+main  section#infor button:hover{
+    cursor:pointer;
+    color:white;
+    box-shadow: rgb(231,195,182) 4px 8px 11px; 
+} 
+
+ footer{
+     margin: -10px 50px 20px 50px;
+     padding: 20px;
+     background-color: #333333;
+ }
+ footer p{
+     text-align: center;
+     color: whitesmoke;
+     font-size: 11pt;
+ }
+ /*media Queries*/
+ @media(min-width:768px){
+     header{
+         height:15vh;
+         background-color: #ffffff;
+     }
+     header> h1{
+         text-align:left;
+     }
+     main{
+         width:100%;
+         display: flex;
+         justify-content:space-between;
+         padding:0;
+     }
+     
+     main > section#image-section{
+         width: 50%;
+     }
+     main > section#infor{
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     }
+    
+ }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1> juley chigboh </h1>
+    <hr/>
+</header>
+<main>
+    <section id="image-section">
+        <img src="me3.jpg"   alt="me3.jpg" title="juley chigboh">
+    </section>
+    <!-- ------------>
+    <section id="infor">
+        <h2>a little bite about myself</h2><br/>
+        <p> i'm <strong>juley chigboh</strong> Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Praesentium, est enim
+        <em>mollitia veniam porro laborum </em>recusandae
+         quas alias delectus accusamus repudiandae 
+         atque magni molestias vero 
+         quis soluta nesciunt. Inventore, fuga!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Vel illum aut, corporis 
+            nobis repellendus aliquid quidem, 
+            asperiores autem exercitationem tempora minus,
+             voluptas nemo porro officiis delectus! 
+             Ex quod perferendis nesciunt?
+</p>
+<div>
+    <a href="mail:chigbohjuley@yahoo.com"
+    subject="hey! i will like to get in touch with you."><br/>
+    <button>GET IN TOUCH</button>
+    </a>
+</div>
+    </section>
+</main> 
+<footer>
+        <p>juley chigboh &copy;2020-all RightReserved</p>
+    </footer>
+</body>
+</html>
